@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class MissionMaker : MonoBehaviour {     
     
+    public enum PlayerShipType { Duelist, Runner, Patron, Marksman };
+    public static PlayerShipType playerShipType;
+
     /* 
     Clamped between -1 and 1 later on, there is a check before instantiating, if probability
     is less than asteroid density, then asteroid is spawned and vice versa
@@ -24,7 +27,7 @@ public class MissionMaker : MonoBehaviour {
     GameObject field;
 
     // objective and other asset prefabs:
-    public GameObject playerPrefab;
+    public GameObject[] playerPrefab = new GameObject[4];
     public GameObject enemyStationPrefab;
     public GameObject friendlyStationPrefab;
     public GameObject formation4Prefab;
@@ -240,8 +243,11 @@ public class MissionMaker : MonoBehaviour {
     // Some tuning required
     void PlaceFriendlyFormations()
     {
+        int prefab = (int)playerShipType;
+        Debug.Log("Player ship index: " + MissionMaker.playerShipType);
+
         Vector3 playerPos = greenPos3D + greenPos3D.normalized * 20;
-        GameObject player = Instantiate(playerPrefab, playerPos , Quaternion.identity) as GameObject;
+        GameObject player = Instantiate(playerPrefab[prefab], playerPos , Quaternion.identity) as GameObject;
 
         player.GetComponent<PlayerController>().teamManager = teamManagers[0];
         player.GetComponent<PlayerController>().teamSide = TeamManager.TeamSide.green;

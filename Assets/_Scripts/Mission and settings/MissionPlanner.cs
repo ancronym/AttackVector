@@ -6,6 +6,8 @@ using UnityEngine.UI;
 
 public class MissionPlanner : MonoBehaviour {
 
+    public Dropdown playerShipTypeDrop;
+
     public enum MissionType {
         destroyEnemyVessels,
         defendBase,
@@ -202,6 +204,11 @@ public class MissionPlanner : MonoBehaviour {
 
         }
         return finalPos2D;
+    }
+
+    public void SetPlayerShipType()
+    {
+        MissionMaker.playerShipType = (MissionMaker.PlayerShipType)playerShipTypeDrop.value;
     }
 
 }
