@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: eeba9d26cdff8444d8c75e141ad6e3b4
+timeCreated: 1538894244
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - debugWPPreset: {fileID: 1307864115471974, guid: e1bd1461dde2e1245856ca6778c4d7f6,
+      type: 2}
+  - debugTMPreset: {instanceID: 0}
+  - enemyPosPrefab: {instanceID: 0}
+  - redPlotPrefab: {instanceID: 0}
+  - BlueWpPrefab: {instanceID: 0}
+  - EscortFormationPrefab: {fileID: 1526267218767732, guid: d34a9ce7930662545a405e176a3db57d,
+      type: 2}
+  - objectiveText: {instanceID: 0}
+  - healthText: {instanceID: 0}
+  - statusText: {instanceID: 0}
+  - rocText: {instanceID: 0}
+  executionOrder: 100
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

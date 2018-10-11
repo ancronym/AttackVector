@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: e30d6e342487b8b45adf1d371727d872
+timeCreated: 1527171123
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - missilePrefab: {fileID: 1187028968131002, guid: dda38d5c3fc37f24fb8dfae1095485f2,
+      type: 2}
+  - boltPrefab: {fileID: 1626021746614648, guid: 17418643a93ff324b8865bd03f7f6637,
+      type: 2}
+  - railPrefab: {fileID: 192610, guid: 8923c8071a480014e8e42dad65bf32cd, type: 2}
+  - deathBlast: {fileID: 198823128805169902, guid: c720e2bd1f5688d4fb5ccbe59bb0336f,
+      type: 2}
+  - plasmaAudio: {fileID: 8300000, guid: add8b0d7598669b49b4eb1b4f559c49c, type: 3}
+  - railgunAudio: {fileID: 8300000, guid: a7cdd67f723f82943a96f3c5154fce72, type: 3}
+  - missileLaunchAudio: {fileID: 8300000, guid: 4875f8d7ae2a6144ab9ee56a382a281e,
+      type: 3}
+  - playerDeathAudio: {fileID: 8300000, guid: 373b939c2497b0b4ca5fbb1b6731f3d0, type: 3}
+  - thrustAudio: {fileID: 8300000, guid: 0b52167eb8a538b4ebfce8b90773ba71, type: 3}
+  - radar: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: f17b547eab8bd7047b2a88f65e7c9e50
+timeCreated: 1527170796
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - thrustAudio: {fileID: 8300000, guid: 0b52167eb8a538b4ebfce8b90773ba71, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
